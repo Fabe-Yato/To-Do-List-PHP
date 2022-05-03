@@ -6,7 +6,7 @@
 }
 
 .pagina{
-    border: 1px dotted rgb(98, 98, 209);
+    border: 2px solid rgb(255, 255, 255);
 }
 li.list-group-item.active{
     color: white;

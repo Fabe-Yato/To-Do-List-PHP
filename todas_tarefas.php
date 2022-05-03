@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To Do List</title>
+    <title>To Do List - Todas Tarefas</title>
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -26,38 +26,17 @@
         <div class="row">
             <div class="col-md-3 menu">
                 <ul>
-                   <li class="list-group-item active">
-                      <a href="#">Tarefas Pendentes</a> 
+                   <li class="list-group-item">
+                      <a href="index.php">Tarefas Pendentes</a> 
                     </li>
                    <li class="list-group-item">
                       <a href="nova_tarefa.php">Nova Tarefa</a> 
                     </li>
-                   <li class="list-group-item">
+                   <li class="list-group-item active">
                       <a href="todas_tarefas.php">Todas as Tarefas</a> 
                     </li> 
                 </ul>
-            </div>
-            <div class="col-md-9">
-                <div class="container pagina rounded bg-dark text-white">
-                    <div class="row">
-                        <div class="col p-3">
-                            <h4>Nova Tarefa:</h4>
-                            <hr>
-                            <form action="">
-                                <div class="form-group ">
-                                    <label for="tarefa">Tarefa:</label>
-                                    <input type="text" name="tarefa" id="tarefa" class="bg-dark border-white text-white rounded form-control"
-                                    placeholder="Ex: Arrumar a casa"> 
-                                    
-                                    <div class="btn btn-outline-success text-white border-white float-start m-2 p-2">
-                                        Registrar Tarefa
-                                    </div>
-                                </div>
-                               
-                            </form>
-                        </div>
-                    </div>
-                </div>
+                <div class="container conteudo-principal"> </div>
             </div>
         </div>
     </div>
